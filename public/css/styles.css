@@ -12,8 +12,9 @@ body {
 }
 
 h1 {
+  margin: 0;
   font-family: "8bit_wondernominal", normal;
-  font-size: 100%;
+  font-size: 20px;
 }
 
 
@@ -46,11 +47,11 @@ h1 {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 1000px;
-  height: 715px;
+  width: 1046px;
+  height: 800px;
   background-image: url("/images/Browser-frame.svg");
   background-repeat: no-repeat;
-  background-size: 1000px 715px;
+  background-size: 1046px 800px;
   background-position: center;
 }
 
@@ -58,14 +59,40 @@ h1 {
   color: #828282;
   margin: 0;
   position: absolute;
-  top: 73px;
-  left: 225px;
+  top: 100px;
+  left: 235px;
 }
 
-.Shopping {
+.Shopping-container {
   position: absolute;
   left: 100px;
-  top: 240px;
+  top: 239px;
   width: 165px;
-  height: 150px;
+  height: 154px;
+}
+
+.Shopping-icon {
+  width: 68px;
+  position: absolute;
+  left: 40.1px;
+
+}
+
+.Shopping-text-box {
+  margin: 0;
+  width: 160px;
+  height: 45px;
+  outline: 2.5px solid;
+  background-color: #F3CA3E;
+  position: absolute;
+  top: 105px;
+}
+
+.Shopping-text {
+  color: white;
+  margin: 0;
+  position: absolute;
+  bottom: 12.5px;
+  left: 39.5px;
+
 }
