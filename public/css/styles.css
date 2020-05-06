@@ -40,18 +40,18 @@ h1 {
 }
 
 .Browser-frame {
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  transform: translateX(-50%);
   margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 1000px;
-  height: 715.2px;
+  height: 715px;
   background-image: url("/images/Browser-frame.svg");
   background-repeat: no-repeat;
-  background-size: 1000px;
+  background-size: 1000px 715px;
   background-position: center;
-
 }
 
 .Browser-frame-url {
@@ -60,4 +60,12 @@ h1 {
   position: absolute;
   top: 73px;
   left: 225px;
+}
+
+.Shopping {
+  position: absolute;
+  left: 100px;
+  top: 240px;
+  width: 165px;
+  height: 150px;
 }
