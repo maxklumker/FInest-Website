@@ -12,6 +12,7 @@ body {
 }
 
 h1 {
+  color: white;
   margin: 0;
   font-family: "8bit_wondernominal", normal;
   font-size: 20px;
@@ -63,22 +64,22 @@ h1 {
   left: 235px;
 }
 
-.Shopping-container {
+.Shop-container {
   position: absolute;
-  left: 100px;
   top: 239px;
+  left: 100px;
   width: 165px;
   height: 154px;
 }
 
-.Shopping-icon {
+.Shop-icon {
   width: 68px;
   position: absolute;
   left: 40.1px;
 
 }
 
-.Shopping-text-box {
+.Shop-text-box {
   margin: 0;
   width: 160px;
   height: 45px;
@@ -88,11 +89,67 @@ h1 {
   top: 105px;
 }
 
-.Shopping-text {
-  color: white;
-  margin: 0;
+.Shop-text {
   position: absolute;
-  bottom: 12.5px;
+  top: 12.5px;
   left: 39.5px;
 
+}
+
+.Video-container {
+  position: absolute;
+  top: 239px;
+  left: 407px;
+  width: 165px;
+  height: 154px;
+}
+
+.Video-icon {
+  width: 75px;
+  height: 52px;
+}
+
+.Video-text-box {
+  margin: 0;
+  width: 160px;
+  height: 45px;
+  outline: 2.5px solid;
+  background-color: #367DC4;
+  position: absolute;
+  top: 105px;
+}
+
+.Video-text {
+  position: absolute;
+  top: 12.5px;
+  left: 34px;
+}
+
+.Social-container {
+  position: absolute;
+  top: 530px;
+  left: 100px;
+  width: 165px;
+  height: 154px;
+}
+
+.Social-icon {
+  width: 57px;
+  height: 50px;
+}
+
+.Social-text-box {
+  margin: 0;
+  width: 160px;
+  height: 45px;
+  outline: 2.5px solid;
+  background-color: #BB3630;
+  position: absolute;
+  top: 105px;
+}
+
+.Social-text {
+  position: absolute;
+  top: 12.5px;
+  left: 24.5px;
 }
