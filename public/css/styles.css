@@ -44,8 +44,8 @@ h1 {
 .Embeded-video {
   margin: 0;
   position: fixed;
-  top: 75px;
-  right: -250px;
+  top: 15.8%;
+  right: 10%;
   width: 640px;
   height: 360px;
   border: 0.5px solid white;
@@ -87,8 +87,8 @@ h1 {
 }
 
 .Shop-icon {
-  width: 74px;
-  height: 62px;
+  width: 70px;
+  height: 70px;
   position: absolute;
   left: 40.1px;
 
@@ -112,7 +112,7 @@ h1 {
 }
 
 .Video-container {
-  position: absolute;
+  position: relative;
   top: 239px;
   left: 407px;
   width: 165px;
@@ -120,8 +120,11 @@ h1 {
 }
 
 .Video-icon {
-  width: 86px;
-  height: 60px;
+  position: absolute;
+  top: -20px;
+  left: 36px;
+  width: 93px;
+  height: 93px;
 }
 
 .Video-text-box {
@@ -149,8 +152,8 @@ h1 {
 }
 
 .Social-icon {
-  width: 68px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
 }
 
 .Social-text-box {
@@ -178,7 +181,7 @@ h1 {
 }
 
 .Tour-icon {
-  width: 38px;
+  width: 50px;
   height: 60px;
 }
 
@@ -207,8 +210,8 @@ h1 {
 }
 
 .Contact-icon {
-  width: 99px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
 }
 
 .Contact-text-box {
