@@ -75,7 +75,7 @@ h1 {
   margin: 0;
   position: fixed;
   top: 18%;
-  left: 34.5%;
+  left: 35%;
   font-size: 1.05vw;
 }
 
@@ -98,8 +98,8 @@ h1 {
 
 .Shop-text-box {
   margin: 0;
-  width: 160px;
-  height: 45px;
+  width: 100%;
+  height: 29.5%;
   outline: 2.5px solid;
   background-color: #F3CA3E;
   position: absolute;
@@ -108,9 +108,11 @@ h1 {
 
 .Shop-text {
   position: absolute;
-  top: 12px;
-  left: 39.5px;
-
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 1.05vw;
 }
 
 .Video-container {
@@ -132,8 +134,8 @@ h1 {
 
 .Video-text-box {
   margin: 0;
-  width: 160px;
-  height: 45px;
+  width: 100%;
+  height: 29.5%;
   outline: 2.5px solid;
   background-color: #367DC4;
   position: absolute;
@@ -142,8 +144,11 @@ h1 {
 
 .Video-text {
   position: absolute;
-  top: 12px;
-  left: 34px;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 1.05vw;
 }
 
 .Social-container {
@@ -162,8 +167,8 @@ h1 {
 
 .Social-text-box {
   margin: 0;
-  width: 160px;
-  height: 45px;
+  width: 100%;
+  height: 29.5%;
   outline: 2.5px solid;
   background-color: #BB3630;
   position: absolute;
@@ -172,8 +177,11 @@ h1 {
 
 .Social-text {
   position: absolute;
-  top: 12px;
-  left: 24.5px;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 1.05vw;
 }
 
 .Tour-container {
@@ -192,8 +200,8 @@ h1 {
 
 .Tour-text-box {
   margin: 0;
-  width: 160px;
-  height: 45px;
+  width: 100%;
+  height: 29.5%;
   outline: 2.5px solid;
   background-color: #4B9755;
   position: absolute;
@@ -202,8 +210,11 @@ h1 {
 
 .Tour-text {
   position: absolute;
-  top: 12px;
-  left: 39.5px;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 1.05vw;
 }
 
 .Contact-container {
@@ -222,8 +233,8 @@ h1 {
 
 .Contact-text-box {
   margin: 0;
-  width: 160px;
-  height: 45px;
+  width: 100%;
+  height: 29.5%;
   outline: 3px solid;
   border: 1px solid white;
   background-color: black;
@@ -233,6 +244,9 @@ h1 {
 
 .Contact-text {
   position: absolute;
-  top: 12px;
-  left: 10px;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 1.05vw;
 }
