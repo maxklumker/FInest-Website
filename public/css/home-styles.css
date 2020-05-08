@@ -84,13 +84,13 @@ h1 {
   left: 100px;
   width: 165px;
   height: 154px;
+  cursor: pointer;
 }
 
 .Shop-icon {
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
   position: absolute;
-  top: -10px;
   left: 40.1px;
 
 }
@@ -118,6 +118,7 @@ h1 {
   left: 407px;
   width: 165px;
   height: 154px;
+  cursor: pointer;
 }
 
 .Video-icon {
@@ -150,6 +151,7 @@ h1 {
   left: 100px;
   width: 165px;
   height: 154px;
+  cursor: pointer;
 }
 
 .Social-icon {
@@ -179,6 +181,7 @@ h1 {
   left: 407px;
   width: 165px;
   height: 154px;
+  cursor: pointer;
 }
 
 .Tour-icon {
@@ -208,6 +211,7 @@ h1 {
   left: 714px;
   width: 165px;
   height: 154px;
+  cursor: pointer;
 }
 
 .Contact-icon {

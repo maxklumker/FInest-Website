@@ -20,9 +20,8 @@ app.use(bodyParser.json());
 
 
 app.get("/", function(req, res) {
-  res.sendFile(__dirname + "/index.html");
+  res.sendFile(__dirname + "/views/home.html");
 });
-
 
 //Port
 app.listen(process.env.PORT || 8000, function() {
