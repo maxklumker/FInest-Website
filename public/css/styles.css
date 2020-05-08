@@ -45,7 +45,7 @@ h1 {
   position: absolute;
   top: 85px;
   left: 650px;
-  width: 520px;
+  width: 640px;
   height: 360px;
   border: 1px solid white;
   border-radius: 10px;
@@ -67,7 +67,7 @@ h1 {
   background-repeat: no-repeat;
   background-size: 1046px 800px;
   background-position: center;
-  z-index: 99999;
+  z-index: 99999; /* to make video controls available*/
 }
 
 .Browser-frame-url {
