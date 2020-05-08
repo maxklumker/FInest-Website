@@ -44,9 +44,9 @@ h1 {
   margin: 0;
   position: absolute;
   top: 16.5%;
-  left: 56%;
-  width: 34%;
-  height: 40%;
+  left: 57%;
+  width: 33%;
+  height: 39%;
   border: 1px solid white;
   border-radius: 10px;
   overflow: hidden;
@@ -76,21 +76,21 @@ h1 {
   position: fixed;
   top: 18%;
   left: 34.5%;
-  font-size: 1vw;
+  font-size: 1.05vw;
 }
 
 .Shop-container {
-  position: absolute;
-  top: 32%;
-  left: 27%;
-  width: 165px;
-  height: 154px;
+  position: fixed;
+  top: 32.7%;
+  left: 27.3%;
+  width: 8.65%;
+  height: 17.16%;
   cursor: pointer;
 }
 
 .Shop-icon {
-  width: 70px;
-  height: 70px;
+  width: 46.5%;
+  height: 46.5%;
   position: absolute;
   left: 40.1px;
 
@@ -114,20 +114,20 @@ h1 {
 }
 
 .Video-container {
-  position: relative;
-  top: 32%;
-  left: 42%;
-  width: 165px;
-  height: 154px;
+  position: fixed;
+  top: 32.7%;
+  left: 43.8%;
+  width: 8.65%;
+  height: 17.16%;
   cursor: pointer;
 }
 
 .Video-icon {
   position: absolute;
-  top: -20px;
+  top: -15px;
   left: 36px;
-  width: 93px;
-  height: 93px;
+  width: 60%;
+  height: 60%;
 }
 
 .Video-text-box {
@@ -147,17 +147,17 @@ h1 {
 }
 
 .Social-container {
-  position: absolute;
-  top: 530px;
-  left: 100px;
-  width: 165px;
-  height: 154px;
+  position: fixed;
+  top: 63%;
+  left: 27.3%;
+  width: 8.65%;
+  height: 17.16%;
   cursor: pointer;
 }
 
 .Social-icon {
-  width: 70px;
-  height: 70px;
+  width: 46.5%;
+  height: 46.5%;
 }
 
 .Social-text-box {
@@ -177,17 +177,17 @@ h1 {
 }
 
 .Tour-container {
-  position: absolute;
-  top: 530px;
-  left: 407px;
-  width: 165px;
-  height: 154px;
+  position: fixed;
+  top: 63%;
+  left: 43.8%;
+  width: 8.65%;
+  height: 17.16%;
   cursor: pointer;
 }
 
 .Tour-icon {
-  width: 50px;
-  height: 60px;
+  width: 30%;
+  height: 36%;
 }
 
 .Tour-text-box {
@@ -207,17 +207,17 @@ h1 {
 }
 
 .Contact-container {
-  position: absolute;
-  top: 530px;
-  left: 714px;
-  width: 165px;
-  height: 154px;
+  position: fixed;
+  top: 63%;
+  left: 60.3%;
+  width: 8.65%;
+  height: 17.16%;
   cursor: pointer;
 }
 
 .Contact-icon {
-  width: 70px;
-  height: 70px;
+  width: 46.5%;
+  height: 46.5%;
 }
 
 .Contact-text-box {
