@@ -106,7 +106,8 @@ h1 {
   height: 10%;
   border: 1px solid #BDBDBD;
   box-shadow: 0px 0px 3px;
-  font-size: 20px;
+  font-size: 12px;
+  font-family: "Press Start 2P";
 }
 
 .Subject-label {
@@ -138,7 +139,8 @@ h1 {
   height: 10%;
   border: 1px solid #BDBDBD;
   box-shadow: 0px 0px 3px;
-  font-size: 20px;
+  font-size: 12px;
+  font-family: "Press Start 2P";
 }
 
 .Message-label {
@@ -170,7 +172,9 @@ h1 {
   width: 62.25%;
   height: 30%;
   box-shadow: 0px 0px 3px;
-  font-size: 20px;
+  font-size: 12px;
+  line-height: 2;
+  font-family: "Press Start 2P";
 }
 
 .Submit-button {
@@ -182,7 +186,7 @@ h1 {
   width: 66.5%;
   height: 11.5%;
   background-color: #3A7BDA;
-  font-family: "8bit_wondernominal", normal;
+  font-family: "8bit_wondernominal";
   font-size: 1.05vw;
   color: white;
 }
