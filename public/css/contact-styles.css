@@ -59,7 +59,7 @@ h1 {
 .Browser-frame-url {
   color: #828282;
   margin: 0;
-  position: fixed;
+  position: absolute;
   top: 18%;
   left: 35%;
   font-size: 1.05vw;
@@ -67,7 +67,7 @@ h1 {
 
 .Form-background {
   margin: 0;
-  position: absolute;
+  position: fixed;
   top: 30%;
   left: 28%;
   right: 30%;
@@ -78,5 +78,111 @@ h1 {
 }
 
 .Email-label {
+  margin: 0;
+  position: absolute;
+  top: 8%;
+  left: 5%;
+  width: 21%;
+  height: 11%;
   background-color: #828282;
+}
+
+.Email-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 1.05vw;
+}
+
+.Email-input {
+  padding-left: 15px;
+  margin: 0;
+  position: absolute;
+  top: 7.8%;
+  left: 28%;
+  width: 64%;
+  height: 10%;
+  border: 1px solid #BDBDBD;
+  box-shadow: 0px 0px 3px;
+  font-size: 20px;
+}
+
+.Subject-label {
+  margin: 0;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  width: 21%;
+  height: 11%;
+  background-color: #828282;
+}
+
+.Subject-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 1.05vw;
+}
+
+.Subject-input {
+  padding-left: 15px;
+  margin: 0;
+  position: absolute;
+  top: 24.8%;
+  left: 28%;
+  width: 64%;
+  height: 10%;
+  border: 1px solid #BDBDBD;
+  box-shadow: 0px 0px 3px;
+  font-size: 20px;
+}
+
+.Message-label {
+  margin: 0;
+  position: absolute;
+  top: 42%;
+  left: 5%;
+  width: 21%;
+  height: 11%;
+  background-color: #828282;
+}
+
+.Message-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 1.05vw;
+}
+
+.Message-input {
+  padding: 15px;
+  margin: 0;
+  border: 1px solid #BDBDBD;
+  position: absolute;
+  top: 41.8%;
+  left: 28%;
+  width: 62.25%;
+  height: 30%;
+  box-shadow: 0px 0px 3px;
+  font-size: 20px;
+}
+
+.Submit-button {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 5%;
+  left: 28%;
+  width: 66.5%;
+  height: 11.5%;
+  background-color: #3A7BDA;
+  font-family: "8bit_wondernominal", normal;
+  font-size: 1.05vw;
+  color: white;
 }

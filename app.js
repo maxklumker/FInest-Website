@@ -26,7 +26,7 @@ app.get("/", function(req, res) {
   res.render("home", {browserFrameUrl: "WESTENDSFINEST"});
 });
 
-app.get("/contact.ejs", function(req, res) {
+app.get("/contact.html", function(req, res) {
   res.render("contact", {browserFrameUrl: "CONTACT"});
 });
 
