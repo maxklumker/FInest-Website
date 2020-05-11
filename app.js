@@ -7,12 +7,15 @@ const nodemailer = require("nodemailer");
 
 const app = express();
 
+//EJS as view engine
+app.set("view engine", "ejs");
+
 //Static folder
 app.use(express.static(__dirname + "/public"));
 
 //View engine setup
-app.engine("handlebars", exphbs());
-app.set("view engine", "handlebars");
+//app.engine("handlebars", exphbs());
+//app.set("view engine", "handlebars");
 
 //Body Parser Middleware
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -20,7 +23,11 @@ app.use(bodyParser.json());
 
 
 app.get("/", function(req, res) {
-  res.sendFile(__dirname + "/views/home.html");
+  res.render("home", {browserFrameUrl: "WESTENDSFINEST"});
+});
+
+app.get("/contact.ejs", function(req, res) {
+  res.render("contact", {browserFrameUrl: "CONTACT"});
 });
 
 //Port
