@@ -75,6 +75,7 @@ h1 {
   width: 42.5%;
   height: 52%;
   background-color: #E0E0E0;
+  border-radius: 3px;
 }
 
 .Email-label {
@@ -189,4 +190,5 @@ h1 {
   font-family: "8bit_wondernominal";
   font-size: 1.05vw;
   color: white;
+  cursor: pointer;
 }

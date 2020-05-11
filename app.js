@@ -26,8 +26,12 @@ app.get("/", function(req, res) {
   res.render("home", {browserFrameUrl: "WESTENDSFINEST"});
 });
 
-app.get("/contact.html", function(req, res) {
+app.get("/contact", function(req, res) {
   res.render("contact", {browserFrameUrl: "CONTACT"});
+});
+
+app.get("/video", function(req, res) {
+  res.render("video", {browserFrameUrl: "VIDEO"});
 });
 
 //Port
