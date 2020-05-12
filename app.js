@@ -26,14 +26,14 @@ app.get("/", function(req, res) {
   res.render("home", {browserFrameUrl: "WESTENDSFINEST"});
 });
 
-app.get("/send", function(req, res) {
-  res.render("send", {
+app.get("/contact", function(req, res) {
+  res.render("contact", {
     browserFrameUrl: "CONTACT"
   });
 });
 
-app.get("/contact", function(req, res) {
-  res.render("contact", {
+app.get("/send", function(req, res) {
+  res.render("send", {
     browserFrameUrl: "CONTACT"
   });
 });
@@ -89,8 +89,8 @@ app.post("/send", function(req, res) {
     port: 465,
     secure: true, // true for 465, false for other ports
     auth: {
-      user: "wastedfamily.wf@gmail.com",
-      pass: "wf6ist9schwul"
+      user: process.env.GMAIL_USER,
+      pass: process.env.GMAIL_PASS
     },
     tls: {
       rejectUnauthorized: false
