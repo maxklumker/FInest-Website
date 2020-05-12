@@ -75,10 +75,8 @@ app.post("/send", function(req, res) {
     <p>You have a new contact</p>
     <h3>Contact details</h3>
     <ul>
-      <li>Name: ${req.body.name}</li>
-      <li>Company: ${req.body.company}</li>
       <li>Email: ${req.body.email}</li>
-      <li>Phone: ${req.body.phone}</li>
+      <li>Subject: ${req.body.subject}</li>
     </ul>
     <h3>Message</h3>
     <p>${req.body.message}</p>
