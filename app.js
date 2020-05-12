@@ -85,7 +85,7 @@ app.post("/send", function(req, res) {
     `;
 
   let transporter = nodemailer.createTransport({
-    host: "gsmtp.gmail.com",
+    host: "smtp.gmail.com",
     port: 465,
     secure: true, // true for 465, false for other ports
     auth: {
