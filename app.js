@@ -85,7 +85,7 @@ app.post("/send", function(req, res) {
     `;
 
   let transporter = nodemailer.createTransport({
-    host: "smtp.gmail.com",
+    host: "gsmtp.gmail.com",
     port: 465,
     secure: true, // true for 465, false for other ports
     auth: {
@@ -98,8 +98,8 @@ app.post("/send", function(req, res) {
   });
 
   let mailOptions = {
-    from: '"Westendsfinest Website" <wastedfamily.wf@gmail.com>', // sender address
-    to: "wastedfamily.wf@gmail.com", // list of receivers
+    from: '"Westendsfinest Website" <process.env.GMAIL_USER>', // sender address
+    to: process.env.GMAIL_USER, // list of receivers
     subject: "Westendsfinest Website", // Subject line
     text: "Hello world?", // plain text body
     html: output // html body
