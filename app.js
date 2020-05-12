@@ -98,7 +98,7 @@ app.post("/send", function(req, res) {
   });
 
   let mailOptions = {
-    from: '"Westendsfinest Website" <process.env.GMAIL_USER>', // sender address
+    from: '"Westendsfinest Website" <wastedfamily.wf@gmail.com>', // sender address
     to: process.env.GMAIL_USER, // list of receivers
     subject: "Westendsfinest Website", // Subject line
     text: "Hello world?", // plain text body
