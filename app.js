@@ -38,6 +38,18 @@ app.get("/social", function(req, res) {
   res.render("social", {browserFrameUrl: "SOCIAL"});
 });
 
+app.get("/artists", function(req, res) {
+  res.render("artists", {browserFrameUrl: "ARTISTS"});
+});
+
+app.get("/tour", function(req, res) {
+  res.render("tour", {browserFrameUrl: "TOUR"});
+});
+
+app.get("/shop", function(req, res) {
+  res.render("shop", {browserFrameUrl: "SHOP"});
+});
+
 //Port
 app.listen(process.env.PORT || 8000, function() {
   console.log("server started on port 8000");
