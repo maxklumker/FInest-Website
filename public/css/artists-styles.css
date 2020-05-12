@@ -1,0 +1,78 @@
+@font-face {
+    font-family: '8bit_wondernominal';
+    src: url('font/8BIT-Wonder/8-bit_wonder-webfont.woff2') format('woff2'),
+         url('font/8BIT-Wonder/8-bit_wonder-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+  font-family: "8bit_wondernominal";
+  font-size: 125%;
+}
+
+.TV-border {
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/tv-border.png");
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.static-gif {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://media.giphy.com/media/Yqn9tE2E00k4U/source.gif");
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Browser-frame {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 97%;
+  height: 94.5%;
+  background-image: url("/images/Browser-frame-black.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+  background-position: center;
+  z-index: 99999; /* to make video controls available*/
+}
+
+.Browser-frame-url {
+  color: #828282;
+  margin: 0;
+  position: absolute;
+  top: 18%;
+  left: 35%;
+  font-size: 1.05vw;
+}
+
+.Artists {
+  margin: 0;
+  position: absolute;
+  top: 53.5%;
+  left: 23%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 2.2vw;
+  transform: rotate(-90deg);
+  cursor: pointer;
+}

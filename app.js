@@ -34,6 +34,10 @@ app.get("/video", function(req, res) {
   res.render("video", {browserFrameUrl: "VIDEO"});
 });
 
+app.get("/social", function(req, res) {
+  res.render("social", {browserFrameUrl: "SOCIAL"});
+});
+
 //Port
 app.listen(process.env.PORT || 8000, function() {
   console.log("server started on port 8000");
