@@ -2,7 +2,7 @@
 
 const express = require("express");
 const bodyParser = require("body-parser");
-const exphbs = require("express-handlebars");
+const path = require("path");
 const nodemailer = require("nodemailer");
 
 const app = express();
@@ -13,13 +13,6 @@ app.set("view engine", "ejs");
 //Static folder
 app.use(express.static(__dirname + "/public"));
 
-//View engine setup
-//app.engine("handlebars", exphbs());
-//app.set("view engine", "handlebars");
-
-//Body Parser Middleware
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
 
 
 app.get("/", function(req, res) {
@@ -49,6 +42,11 @@ app.get("/tour", function(req, res) {
 app.get("/shop", function(req, res) {
   res.render("shop", {browserFrameUrl: "SHOP"});
 });
+
+//Contact form
+
+
+
 
 //Port
 app.listen(process.env.PORT || 8000, function() {
