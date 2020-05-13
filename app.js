@@ -74,7 +74,6 @@ app.get("/shop", function(req, res) {
 //Contact form
 app.post("/send", function(req, res) {
   const output = `
-    <p>You have a new contact</p>
     <h3>Contact details</h3>
     <ul>
       <li>Email: ${req.body.email}</li>
