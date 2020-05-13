@@ -68,8 +68,8 @@ h1 {
 .Embeded-video {
   margin: 0;
   position: absolute;
-  top: 40%;
-  left: 26%;
+  top: 41%;
+  left: 28%;
   width: 21%;
   height: 27%;
   border: 1px solid white;
@@ -81,16 +81,16 @@ h1 {
 .Echo {
   margin: 0;
   position: absolute;
-  top: 49%;
-  left: 57%;
+  top: 50%;
+  left: 59%;
   font-size: 1.25vw;
 }
 
 .Echo-westendsfinest {
   margin: 0;
   position: absolute;
-  top: 55%;
-  left: 54.5%;
+  top: 56%;
+  left: 56.5%;
   font-family: "8bit_wondernominal";
   color: white;
   font-size: 0.7vw;

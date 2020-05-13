@@ -119,21 +119,30 @@ table {
   font-size: 1.2vw;
 }
 
-.Icon-table {
-  margin: 0;
+.Social-icon {
   position: absolute;
-  top: 63%;
-  left: 43%;
-  width: 22%;
-  height: 22%;
+  top: 70%;
 }
 
-.Icon-row {
-  border: 30px solid transparent;
+.Instagram {
+  position: absolute;
+  left: 40%;
+  width: 9.5%;
+  height: 9.5%;
 }
 
-.Scoial-icon {
-  margin: 0;
-  width: 15%;
-  height: 15%;
+.Spotify {
+  position: absolute
+  top: 67%;
+  left: 49.25%;
+  width: 10%;
+  height: 10%;
+}
+
+.Youtube {
+  position: absolute;
+  top: 69.5%;
+  left: 58.5%;
+  width: 11%;
+  height: 11%
 }
