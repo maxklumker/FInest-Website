@@ -1,7 +1,6 @@
 # Westendsfinest Website
 
-**URL:** www.westendsfinest.de
-The official website of the rapgroup "Westendsfinest"
+**URL:** www.westendsfinest.de is the official website of the rapgroup "Westendsfinest"
 
 ## Requirements
 
@@ -15,8 +14,10 @@ Also, be sure to have `git` available in your PATH, `npm` might need it (You can
 
 ## Install
 
-  $ git clone https://github.com/maxklumker/Finest-Website
-  $ cd Finest-Website
+```bash
+git clone https://github.com/maxklumker/Finest-Website
+cd Finest-Website
+```
 
 There are three Node.js modules that you need to install using `npm`.
 Install these within the downloaded directory
@@ -27,7 +28,7 @@ npm install body-parser
 npm install nodemailer
 ```
 
-### For using the contact form:
+### For using the contact form
 
 Before running **app.js** locally you have to change `process.env.GMAIL_USER` and `process.env.GMAIL_PASS` to use your own email login (your email address and password).
 Depending on the provider of your choice you might need to search for their security guidelines.
