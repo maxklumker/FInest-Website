@@ -1,246 +1,257 @@
 @font-face {
     font-family: '8bit_wondernominal';
     src: url('font/8BIT-Wonder/8-bit_wonder-webfont.woff2') format('woff2'),
-         url('font/8BIT-Wonder/8-bit_wonder-webfont.woff') format('woff');
+        url('font/8BIT-Wonder/8-bit_wonder-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-  margin: 0;
-  text-align: center;
+    margin: 0;
+    text-align: center;
 }
 
 h1 {
-  color: white;
-  margin: 0;
-  font-family: "8bit_wondernominal", normal;
-  font-size: 125%;
+    color: white;
+    margin: 0;
+    font-family: "8bit_wondernominal", normal;
+    font-size: 125%;
 }
 
 .TV-border {
-  width: 100%;
-  height: 100%;
-  background-image: url("/images/tv-border.png");
-  background-size: 100% 100%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/images/tv-border.png");
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .static-gif {
-  width: 100%;
-  height: 100%;
-  background-image: url("https://media.giphy.com/media/Yqn9tE2E00k4U/source.gif");
-  background-size: 100% 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://media.giphy.com/media/Yqn9tE2E00k4U/source.gif");
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .Embeded-video {
-  margin: 0;
-  position: absolute;
-  top: 16.5%;
-  left: 57%;
-  width: 33%;
-  height: 39%;
-  border: 1px solid white;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0px 0px 15px;
+    margin: 0;
+    position: absolute;
+    top: 16.5%;
+    left: 57%;
+    width: 33%;
+    height: 39%;
+    border: 1px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px;
 }
 
+.Home-button {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  top: 17%;
+  left: 26%;
+  opacity: 0;
+  background-color: white;
+  cursor: pointer;
+}
 
 .Browser-frame {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  width: 97%;
-  height: 94.5%;
-  background-image: url("/images/Browser-frame.svg");
-  background-repeat: no-repeat;
-  background-size: 100% 80%;
-  background-position: center;
-  z-index: 99999; /* to make video controls available*/
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 97%;
+    height: 94.5%;
+    background-image: url("/images/Browser-frame.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+    background-position: center;
+    z-index: 99999;
+    /* to make video controls available*/
 }
 
 .Browser-frame-url {
-  color: #828282;
-  margin: 0;
-  position: fixed;
-  top: 18%;
-  left: 35%;
-  font-size: 1.05vw;
+    color: #828282;
+    margin: 0;
+    position: fixed;
+    top: 18%;
+    left: 35%;
+    font-size: 1.05vw;
 }
 
 .Shop-container {
-  position: fixed;
-  top: 32.7%;
-  left: 27.3%;
-  width: 8.65%;
-  height: 17.16%;
-  cursor: pointer;
+    position: fixed;
+    top: 32.7%;
+    left: 27.3%;
+    width: 8.65%;
+    height: 17.16%;
+    cursor: pointer;
 }
 
 .Shop-icon {
-  width: 46.5%;
-  height: 46.5%;
+    width: 46.5%;
+    height: 46.5%;
 }
 
 .Shop-text-box {
-  margin: 0;
-  width: 100%;
-  height: 29.5%;
-  outline: 2.5px solid;
-  background-color: #F3CA3E;
-  position: absolute;
-  top: 105px;
+    margin: 0;
+    width: 100%;
+    height: 29.5%;
+    outline: 2.5px solid;
+    background-color: #F3CA3E;
+    position: absolute;
+    top: 105px;
 }
 
 .Shop-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-size: 1.05vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 1.05vw;
 }
 
 .Video-container {
-  position: fixed;
-  top: 32.7%;
-  left: 43.8%;
-  width: 8.65%;
-  height: 17.16%;
-  cursor: pointer;
+    position: fixed;
+    top: 32.7%;
+    left: 43.8%;
+    width: 8.65%;
+    height: 17.16%;
+    cursor: pointer;
 }
 
 .Video-icon {
-  width: 60%;
-  height: 50%;
+    width: 60%;
+    height: 50%;
 }
 
 .Video-text-box {
-  margin: 0;
-  width: 100%;
-  height: 29.5%;
-  outline: 2.5px solid;
-  background-color: #367DC4;
-  position: absolute;
-  top: 105px;
+    margin: 0;
+    width: 100%;
+    height: 29.5%;
+    outline: 2.5px solid;
+    background-color: #367DC4;
+    position: absolute;
+    top: 105px;
 }
 
 .Video-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-size: 1.05vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 1.05vw;
 }
 
 .Social-container {
-  position: fixed;
-  top: 63%;
-  left: 27.3%;
-  width: 8.65%;
-  height: 17.16%;
-  cursor: pointer;
+    position: fixed;
+    top: 63%;
+    left: 27.3%;
+    width: 8.65%;
+    height: 17.16%;
+    cursor: pointer;
 }
 
 .Social-icon {
-  width: 46.5%;
-  height: 46.5%;
+    width: 46.5%;
+    height: 46.5%;
 }
 
 .Social-text-box {
-  margin: 0;
-  width: 100%;
-  height: 29.5%;
-  outline: 2.5px solid;
-  background-color: #BB3630;
-  position: absolute;
-  top: 105px;
+    margin: 0;
+    width: 100%;
+    height: 29.5%;
+    outline: 2.5px solid;
+    background-color: #BB3630;
+    position: absolute;
+    top: 105px;
 }
 
 .Social-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-size: 1.05vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 1.05vw;
 }
 
 .Tour-container {
-  position: fixed;
-  top: 63%;
-  left: 43.8%;
-  width: 8.65%;
-  height: 17.16%;
-  cursor: pointer;
+    position: fixed;
+    top: 63%;
+    left: 43.8%;
+    width: 8.65%;
+    height: 17.16%;
+    cursor: pointer;
 }
 
 .Tour-icon {
-  width: 30%;
-  height: 36%;
+    width: 30%;
+    height: 36%;
 }
 
 .Tour-text-box {
-  margin: 0;
-  width: 100%;
-  height: 29.5%;
-  outline: 2.5px solid;
-  background-color: #4B9755;
-  position: absolute;
-  top: 105px;
+    margin: 0;
+    width: 100%;
+    height: 29.5%;
+    outline: 2.5px solid;
+    background-color: #4B9755;
+    position: absolute;
+    top: 105px;
 }
 
 .Tour-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-size: 1.05vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 1.05vw;
 }
 
 .Contact-container {
-  position: fixed;
-  top: 63%;
-  left: 60.3%;
-  width: 8.65%;
-  height: 17.16%;
-  cursor: pointer;
+    position: fixed;
+    top: 63%;
+    left: 60.3%;
+    width: 8.65%;
+    height: 17.16%;
+    cursor: pointer;
 }
 
 .Contact-icon {
-  width: 46.5%;
-  height: 46.5%;
+    width: 46.5%;
+    height: 46.5%;
 }
 
 .Contact-text-box {
-  margin: 0;
-  width: 100%;
-  height: 29.5%;
-  outline: 3px solid;
-  border: 1px solid white;
-  background-color: black;
-  position: absolute;
-  top: 105px;
+    margin: 0;
+    width: 100%;
+    height: 29.5%;
+    outline: 3px solid;
+    border: 1px solid white;
+    background-color: black;
+    position: absolute;
+    top: 105px;
 }
 
 .Contact-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-size: 1.05vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 1.05vw;
 }
